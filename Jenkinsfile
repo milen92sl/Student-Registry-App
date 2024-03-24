@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/milen92sl/Student-Registry-App-Jenkins-Exercise'
             }
         }
         stage('Setup Node.js') {
